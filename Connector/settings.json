@@ -1,0 +1,40 @@
+{
+  "name": "PowerBI",
+  "urlPart": "power-bi",
+  "key": "power-bi",
+  "description": "Microsoft Power BI connector for enterprise data management and reporting. Enables programmatic control over Power BI workspaces, datasets, and reports. Features include real-time data streaming via Push Datasets, PBIX file imports, workspace management, and automated dataset refreshes. Ideal for organizations looking to automate their Power BI operations and integrate Power BI into their data workflows.",
+  "modules": [
+    {
+      "id": "groups-1",
+      "name": "Groups",
+      "urlPart": "groups",
+      "key": "groups",
+      "description": "Manage Power BI workspaces (groups) and their settings",
+      "version": 1
+    },
+    {
+      "id": "datasets-1",
+      "name": "Datasets",
+      "urlPart": "datasets",
+      "key": "datasets",
+      "description": "Work with Power BI datasets including creation and data refresh",
+      "version": 1
+    },
+    {
+      "id": "imports-1",
+      "name": "Imports",
+      "urlPart": "imports",
+      "key": "imports",
+      "description": "Import PBIX files and manage Power BI import operations",
+      "version": 1
+    },
+    {
+      "id": "pushdatasets-1",
+      "name": "Push Datasets",
+      "urlPart": "pushdatasets",
+      "key": "pushdatasets",
+      "description": "Create and update Push Datasets for real-time data streaming to Power BI",
+      "version": 1
+    }
+  ]
+}
